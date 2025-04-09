@@ -1,0 +1,1 @@
+export const NEXT_PUBLIC_BACKEND_BASE_URL = "http://localhost:8080";

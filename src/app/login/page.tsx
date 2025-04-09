@@ -3,6 +3,7 @@ import { useUserContext } from "@/context/user";
 import { useRouter } from "next/navigation";
 import { ChangeEvent, FormEvent, useState, useTransition } from "react";
 import { toast } from "sonner";
+import { NEXT_PUBLIC_BACKEND_BASE_URL } from "@/constant";
 
 interface formDataType {
   email: string;
@@ -13,7 +14,6 @@ const initialFormData: formDataType = {
   email: "",
   password: "",
 };
-export const NEXT_PUBLIC_BACKEND_BASE_URL = "http://localhost:8080";
 
 const Login = () => {
   const [formData, setFormData] = useState<formDataType>(initialFormData);
@@ -63,6 +63,7 @@ const Login = () => {
             headers: {
               "Content-Type": "application/json",
             },
+            credentials: 'include',
             body: JSON.stringify(formData),
           }
         );
