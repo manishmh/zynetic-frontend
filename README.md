@@ -32,13 +32,13 @@ A full-stack application for managing products with secure user authentication, 
 
 ## 📸 Screenshots
 
-| Signup | Login | Dashboard |
+| registert | Login | Dashboard |
 |--------|-------|-----------|
-| ![Signup](/public/result/signup.png) | ![Login](/public/result/login.png) | ![Dashboard](/public/result/dashboard.png) |
+| ![Signup](/public/result/register.png) | ![Login](/public/result/login.png) | ![Dashboard](/public/result/home.png) |
 
-| Add Product | Edit Product | Delete Confirmation |
+| Add Product | Edit Product | Logout |
 |-------------|--------------|----------------------|
-| ![Add](/public/result/add-product.png) | ![Edit](/public/result/edit-product.png) | ![Delete](/public/result/delete-confirm.png) |
+| ![Add](/public/result/add-product.png) | ![Edit](/public/result/edit.png) | ![Delete](/public/result/logout.png) |
 
 ---
 
