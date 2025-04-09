@@ -50,10 +50,7 @@ A full-stack application for managing products with secure user authentication, 
 
 ## 📂 Backend Repository
 
-🔗 [View Backend Code](https://github.com/your-username/backend-repo-name)
-
-> Replace the URL above with your actual GitHub repository link.
-
+🔗 [View Backend Code](https://github.com/manishmh/zynetic-backend)
 ---
 
 ## 📦 Setup Instructions
