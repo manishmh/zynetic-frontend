@@ -66,7 +66,7 @@ const Products = () => {
   };
 
   return (
-    <div className="p-6 rounded-md relative">
+    <div className="px-6 rounded-md relative">
       <div className="flex w-full justify-between items-center gap-4 mb-4">
         <div>
           <h2 className="text-xl font-semibold ml-auto">Product List</h2>

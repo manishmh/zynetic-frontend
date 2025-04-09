@@ -5,7 +5,8 @@ import { createContext, useState, ReactNode, useContext } from "react";
 interface userType {
     id: string,
     name: string,
-    email: string
+    email: string,
+    role: string
 }
 
 interface UserContextType {
@@ -17,7 +18,6 @@ const UserContext = createContext<UserContextType | undefined>(undefined);
 
 export const UserDataProvider = ({ children }: { children: ReactNode }) => {
     const [user, setUser] = useState<userType | null>(null)
-    console.log('user', user)
     const handleUser = (data: userType | null) => {
         setUser(data);
     }
