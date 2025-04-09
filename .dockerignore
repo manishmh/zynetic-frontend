@@ -1,0 +1,14 @@
+node_modules
+.npm
+.pnpm
+.yarn
+.cache
+
+npm-debug.log*
+
+.env
+
+.next
+
+.git
+.gitignore
